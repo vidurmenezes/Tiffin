@@ -1,5 +1,6 @@
 <?php
 session_start();
+$imgcount = 1;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -168,7 +169,7 @@ session_start();
                 <div class="row">
 
 					<?php
-					
+						
 						$dbhost = 'localhost:3306';
 						$dbuser = 'admin';
 						$dbpass = 'tiffin1';
@@ -183,6 +184,7 @@ session_start();
 						if(!$retval){
 							header("error.html");
 						}
+						
 						while($row = mysql_fetch_array($retval, MYSQL_NUM)){
 							$person = $row[1];
 							$price = $row[2];
@@ -209,7 +211,7 @@ session_start();
 							<a href= "/../cook/cook.php?&person=',$person,'&price=',$price,'&about=',$about,'&name=',$name,'&dayofpost=',$dayofpost,'&posttime=',$posttime,'">
 								<div class="col-sm-4 col-lg-4 col-md-4" style="height:auto">	
 									<div class="thumbnail">
-										<img src="http://placehold.it/320x150" alt="">
+										<img src="/../img/Tif',$imgcount,'.jpg" alt="">
 											<div class="caption">
 												<h4 class="pull-right">$',$row[2],'</h4>
 												<h4>',$row[4],'</h4>
@@ -220,6 +222,7 @@ session_start();
 									</div>
 								</div>
 							</a>';
+							$imgcount = $imgcount + 1;
 						}
 					?>
                 </div>
