@@ -24,10 +24,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    
-
-
-   
+       
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -106,7 +103,10 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About <a>TIFFIN</a></h2>
-                <p>Is education residence conveying so so. Suppose shyness say ten behaved morning had. Any unsatiable assistance compliment occasional too reasonably advantages. Unpleasing has ask acceptance <a href="http://facebook.com">facebook</a> partiality alteration understood two. Worth no tiled my at house added. Married he hearing am it totally removal. Remove but suffer wanted his lively length. Moonlight two applauded conveying end direction old principle but. Are expenses distance weddings perceive strongly who age domestic</p>
+                <p>Tiffin a web service aimed mostly at university students to create a network of cooks and food for our users to discover. It is a platform where people who are looking for homemade food and people 
+				who have extra food can meet up. According to the Financial Consumer Agency of Canada, in 2013 and 2014, the average cost of a year’s tuition at a Canadian university was $5,772. This number rises for
+				subsequent years and as tuition rises, students have less money to spend. Tiffin provides a medium for students to have a cheap, healthy lunch so they do not have to worry about spending too much on food.
+				</p>
             </div>
         </div>
     </section>

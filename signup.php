@@ -48,6 +48,6 @@ $retval = mysql_query( $sql, $conn );
 if(! $retval){
 	header("error.html");
 }
-header ("location:/index.php");
+header ("location:/index.php#signin");
 mysql_close($conn);
 ?>
